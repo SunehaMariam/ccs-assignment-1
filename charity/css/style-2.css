@@ -1,0 +1,296 @@
+.btn {
+    border: 1px solid #fa6f1c;
+    color: #fa6f1c;
+}
+
+.btn:hover {
+    background-color: orange;
+    color: white;
+}
+.nav-bar-button{
+border: 2px solid #fa6f1c;
+color: #fa6f1c;}
+.nav-bar-button:hover {
+    background-color: #fa6f1c;
+    color: white;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+.dropdown-toggle::after {
+    display: none;
+    /* Hide the default caret */
+
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+.breadcrumbs {
+    list-style-type: none;
+    /* Remove bullet points */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
+    width: 150px;
+}
+
+.breadcrumbs li {
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    /* Remove underline from links */
+    color: black;
+    /* Set link color */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .breadcrumbs li {
+        width: auto;
+        /* Allow full width on smaller screens */
+    }
+}
+
+#hd1 {
+    color: orange;
+}
+
+.button-2 {
+    border: 2px solid orangered;
+    color: orangered;
+    margin-right: 20px;
+}
+
+.button-2:hover {
+    background-color: #fa6f1c;
+    color: white;
+}
+
+.facebook-button {
+    border: 2px solid#3a559f;
+}
+
+.facebook-button:hover {
+    background-color: #3a559f;
+    color: white;
+}
+
+.page-link {
+    background-color: #fa6f1c;
+}
+
+.facebook-button-1 {
+    border: 1px solid #3a559f;
+    background-color: #3a559f ;
+    color: white;
+}
+
+.facebook-button-1:hover {
+    background-color: transparent;
+    color: #3a559f;
+}
+.facebook-button-2{
+    border: 1px solid #1abdf3;
+    background-color: #1abdf3 ;
+    color: white;
+}
+.facebook-button-2:hover {
+    background-color: transparent;
+    color: #1abdf3;
+}
+.facebook-button-3{
+    border: 1px solid #fa501c;
+    background-color: #fa501c ;
+    color: white;
+}
+.facebook-button-3:hover {
+    background-color: transparent;
+    color: #fa501c;
+}
+.facebook-button-4{
+    border: 1px solid #3a7d9f;
+    background-color: #3a7d9f;
+    color: white;
+}
+.facebook-button-4:hover {
+    background-color: transparent;
+    color: #3a7d9f;
+}
+.comment-form {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    /* Light background */
+    border-radius: 5px;
+}
+
+.form-control {
+    border-bottom: 1px solid #ced4da;
+    /* Border only at the bottom */
+}
+
+.form-control:focus {
+    /* Remove shadow on focus */
+    border-color: #80bdff;
+    /* Bootstrap default focus color */
+}
+
+.button-1 {
+    border: 2px solid orangered;
+    background-color:#fa6f1c ;
+    color: white;
+}
+
+.button-1:hover {
+    background-color: transparent;
+    color: #fa6f1c;
+}
+.button-bar {
+    border: 2px solid orangered;
+    background-color: transparent;
+    color: #fa6f1c ;
+}
+
+.button-bar:hover {
+    background-color: #fa6f1c;
+    color:  white;
+}
+.line {
+    flex-grow: 1;
+    height: 3px;
+    /* Adjust thickness */
+    background-color: #ccc;
+    /* Line color */
+    margin: 0 10px;
+    /* Spacing around the line */
+}
+
+.btn {
+    padding: 10px 20px;
+    /* Adjust button size */
+    /* border: 1px solid orangered ; */
+}
+
+.mx-2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text-start {
+    text-align: right;
+}
+
+.button-3 {
+    border: 1px solid black;
+    color: black;
+    margin-right: 20px;
+}
+
+.button-3:hover {
+    background-color: #fa6f1c;
+    color: white;
+}
+
+.horizontal-line {
+    color: #fa6f1c;
+    border: 1px solid orangered;
+    width: 40px;
+}
+.bar-1{
+    margin:0px;
+    padding: 0;
+    width: 100%;
+}
+ .footer-1{
+    margin:0px;
+    padding: 0;
+    width: 100%;
+    background-color: #75737f;
+}
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.input-button{
+    background-color: #fa6f1c;
+    color: white;
+    height: 40px;   
+}
+.footer-links{
+    text-decoration: none;
+}
+.quick-links a{
+    text-decoration: none;
+    color:rgb(39, 38, 38);
+
+}
+.quick-links a:hover{
+    color: white;
+}
+.email{
+    color: rgb(39, 38, 38);
+}
+.email:hover{
+color: white;
+}
+.icon-image {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.icon-image img {
+    transition: opacity 0.3s ease;
+}
+
+.icon-image:hover img {
+    opacity: 0; /* Image disappears on hover */
+}
+
+.icon-image:hover {
+    background-color: rgba(250, 111, 28, 0.83); /* Background changes to orange */
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Change icon color as needed */
+    font-size: 24px; /* Adjust size as needed */
+    opacity: 0; /* Icon starts as invisible */
+    transition: opacity 0.3s ease;
+}
+
+.icon-image:hover .search-icon {
+    opacity: 1; /* Icon becomes visible on hover */
+}
+.comment-button{
+    background-color: #fa6f1c;
+    color: white;
+    border: 1px solid #fa6f1c;
+}
+.navbar {
+    background-color: #fbfbfb;
+}
+.social-icons a {
+    margin-left: 10px;
+    color: #7b7983; /* Default color for icons */
+}
+

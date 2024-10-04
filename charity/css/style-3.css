@@ -1,0 +1,326 @@
+#hd1 {
+    color: orange;
+    margin-left: 5px;
+}
+#hd1:hover{
+    text-decoration: underline;
+}
+.btn {
+    border: 1px solid #fa6f1c;
+    color: #fa6f1c;
+}
+
+.btn:hover {
+    background-color: #fa6f1c;
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+.dropdown-toggle::after {
+    display: none;
+    /* Hide the default caret */
+
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+.breadcrumbs {
+    list-style-type: none;
+    /* Remove bullet points */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
+    width: 170px;
+ 
+}
+
+.breadcrumbs li {
+    white-space: nowrap;
+
+    /* Prevent text from wrapping */
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    /* Remove underline from links */
+    color: black;
+ 
+    /* Set link color */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .breadcrumbs li {
+        width: auto;
+        /* Allow full width on smaller screens */
+    }
+}
+.button-2 {
+    border: 2px solid orangered;
+    color: orangered;
+    margin-right: 20px;
+}
+
+.button-2:hover {
+    background-color: #fa6f1c;
+    color: white;
+}
+
+.facebook-button {
+    border: 2px solid #3a559f;
+}
+
+.facebook-button:hover {
+    background-color: #3a559f;
+    color: white;
+}
+.button-3 {
+    border: 1px solid black;
+    color: black;
+    margin-right: 20px;
+}
+
+.button-3:hover {
+    background-color: #fa6f1c;
+    color: white;
+}
+
+.horizontal-line {
+    color: #fa6f1c;
+    border: 1px solid orangered;
+    width: 40px;
+}
+
+.bar-1{
+    margin:0px;
+    padding: 0;
+    width: 100%;
+}
+ .footer-1{
+    margin:0px;
+    padding: 0;
+    width: 100%;
+    background-color: #75737f;
+}
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.input-button{
+    background-color: #fa6f1c;
+    color: white;
+    height: 40px;   
+}
+.line {
+    flex-grow: 1;
+    height: 3px;
+    /* Adjust thickness */
+    background-color: #ccc;
+    /* Line color */
+    margin: 0 10px;
+    /* Spacing around the line */
+}
+
+.btn {
+    padding: 10px 20px;
+    /* Adjust button size */
+    /* border: 1px solid orangered ; */
+}
+
+.mx-2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text-start {
+    text-align: right;
+}
+.button-1 {
+    border: 2px solid orangered;
+    color: orangered;
+}
+
+.button-1:hover {
+    background-color: #fa6f1c;
+    color: white;
+}
+.card-heading:hover{
+    color: #fa6f1c;
+}
+.page-link {
+    background-color: #fa6f1c;
+}
+.comma{
+    margin-left: 50%;
+}
+.blockquote-1{
+    border: 2px solid rgba(99, 99, 99, 0.2) ;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.circular-image {
+    width: 54px; /* Fixed size */
+    height: 54px; /* Fixed size */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px; /* Space between image and text */
+}
+.post-list p {
+    margin-bottom: 0; /* Remove default margin */
+    margin-right: 15px; /* Add spacing between text elements */
+}
+.comment:hover{
+    color: #fa6f1c;
+}
+.next-button:hover{
+color: white;
+background-color: #fa6f1c;
+}
+
+.footer{
+  
+    width: 100%;
+}
+.container-fluid {
+   
+    width: 100%;
+   
+}
+.input-button{
+    background-color: #fa6f1c;
+    color: white;
+    height: 40px;   
+}
+
+.quick-links a{
+    text-decoration: none;
+    color:rgb(39, 38, 38);
+
+}
+.quick-links a:hover{
+    color: white;
+}
+/* *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+ /* .but-1{
+    background-color: #fa6f1c;
+ } */
+ .progress-bar-1{
+    height: 5px;
+    background-color: black;
+ }
+ .progress-1{
+    height: 5px;
+ }
+ /* .progress-container {
+    position: relative;
+} */
+
+.dollar-amount {
+    margin-right: 10px; /* Adjust as needed */
+}
+
+.sponsor-icon {
+    margin-left: 10px; /* Adjust as needed */
+}
+
+.progress {
+    flex-grow: 1; /* Allows progress bar to fill available space */
+}
+
+.progress-bar {
+    background-color: #007bff; /* Adjust color as needed */
+}
+/* .percent-button:hover{
+    bac
+} */
+.percent-button{
+
+    background-color: #fa6f1c;
+}
+.email{
+    color: rgb(39, 38, 38);
+}
+.email:hover{
+color: white;
+}
+.icon-image {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.icon-image img {
+    transition: opacity 0.3s ease;
+}
+
+.icon-image:hover img {
+    opacity: 0; /* Image disappears on hover */
+}
+
+.icon-image:hover {
+    background-color: rgba(250, 111, 28, 0.83); /* Background changes to orange */
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Change icon color as needed */
+    font-size: 24px; /* Adjust size as needed */
+    opacity: 0; /* Icon starts as invisible */
+    transition: opacity 0.3s ease;
+}
+
+.icon-image:hover .search-icon {
+    opacity: 1; /* Icon becomes visible on hover */
+}
+.image-container {
+    position: relative; /* Position relative to contain the absolutely positioned button */
+}
+
+.image-with-button {
+    opacity: 0.8; /* Slightly reduce opacity of the image */
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.image-with-button:hover {
+    opacity: 1; /* Full opacity on hover */
+}
+
+.youtube-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the button */
+    /* Red background with slight transparency */
+    color: white; /* Icon color */
+    padding: 10px 15px; /* Padding around the button */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 35px; /* Icon size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10; /* Ensure the button appears above the image */
+}
+.navbar {
+    background-color: #fbfbfb;
+}
+.social-icons a {
+    margin-left: 10px;
+    color: #7b7983; /* Default color for icons */
+}

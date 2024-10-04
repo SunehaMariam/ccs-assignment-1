@@ -1,0 +1,256 @@
+.btn{
+    border: 1px solid #fa6f1c;
+    color:#fa6f1c;
+}
+.btn:hover{
+    background-color: orange;
+    color: white;
+}
+    .dropdown:hover .dropdown-menu {
+            display: block;
+         
+        }
+        .nav-link:hover{
+            color: orange;
+        }
+        .dropdown-toggle::after {
+            display: none; /* Hide the default caret */
+          
+        }
+        .nav-link:hover{
+            color: orange;
+        }
+        .image{
+            width: 10rem;
+            height: auto;
+        }
+        .carousel-caption{
+            background-color: #fa6f1c;
+            max-width: 100%;
+        }
+        
+        .dabba{
+            background-color: #fc8f30 ;
+            
+        } 
+       
+        .body{
+            color: #963e09;
+            
+        } 
+        .buttons{
+            border: 2px solid  #963e09;
+            background-color: #fc8f30 ;
+           
+
+        }
+        .buttons:hover{
+            background-color:  #8d3c0a ;
+        }
+        .dots{
+        color: #fa6f1c;
+        font-weight: 700;
+        }
+        
+        .progress {
+            height: 2px; /* Adjust this value to make the bar thinner or thicker */
+        }
+        .progress-bar {
+            background-color: black; /* Change color as needed */
+        }
+        .bar-text{
+            color: black;
+        }
+        .button-1{
+border: 2px solid orangered;
+color: orangered;
+        }
+        .button-1:hover{
+            background-color: #fa6f1c;
+            color: white;
+        }
+        .text{
+            color: #75737f;
+        }
+        .email{
+            color: white;
+        }
+        .email:hover{
+        color: #fa6f1c;
+    }
+    .button-container {
+        display: flex;
+        align-items: center;
+         /* Center buttons vertically */
+    }
+    .button-container button {
+        margin-left: 10px; /* Spacing between buttons */
+    }
+    /* .ln {
+        color: black;
+        border: 1px solid orangered;
+        width: 40px;
+    } */
+    
+    .content:hover, .icons:hover{
+background-color: #fa6f1c;
+color:white;
+    }
+    .orange-box {
+        background-color:  #fa6f1c; /* Set background color to orange */
+        height: 200px;/* Adjust height as needed */
+       max-width: 100%;
+        display: flex; /* Center content vertically */
+    
+    }
+   
+    .sub-head{
+        color: #83380b;
+    }
+    
+    .btn {
+        padding: 10px 20px; /* Adjust button size */
+        /* border: 1px solid orangered ; */
+    }
+    
+    .mx-2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .text-start {
+        text-align: right;
+    }
+    .footer{
+  
+        width: 100%;
+    }
+    .bar-1{
+        margin:0px;
+        padding: 0;
+        width: 100%;
+    }
+     .footer-1{
+        margin:0px;
+        padding: 0;
+        width: 100%;
+        background-color: #75737f;
+    }
+    .container-fluid {
+       
+        width: 100%;
+       
+    }
+    .drop-button:hover{
+        color: white;
+background-color: #fa6f1c;
+
+    }
+    .text-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .text-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .line-1 {
+        width: 25px; /* Set line width to 10px */
+        height: 2px; /* Adjust height of the lines */
+        background-color: orange; /* Set line color */
+        margin: 0 5px; /* Add space around the image */
+    }
+    .line{
+        width: 35px; /* Set line width to 10px */
+        height: 2px; /* Adjust height of the lines */
+        background-color: white; /* Set line color */
+        margin: 0 5px; /* Add space around the image */
+    }
+    
+    .image-2 {
+        max-width: 100px; /* Adjust width of the image as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+    .button-container {
+        display: flex;
+        margin-right: 52%;
+         /* Space between buttons */
+    }
+    .facebook-button-1 {
+        border: 1px solid #3a559f;
+        background-color: #3a559f ;
+        color: white;
+        text-decoration: none;
+        margin-right: 5%;
+    }
+    
+    .facebook-button-1:hover {
+        background-color: transparent;
+        color: #3a559f;
+    }
+    .comment:hover{
+        color: #fa6f1c;
+    }
+    .input-button{
+        background-color: #fa6f1c;
+        color: white;
+        height: 40px;   
+    }
+    .horizontal-line {
+        color: #fa6f1c;
+        border: 1px solid orangered;
+        width: 40px;
+    }
+    .quick-links a{
+        text-decoration: none;
+        color:rgb(39, 38, 38);
+    
+    }
+    .quick-links a:hover{
+        color: white;
+    }
+    .emai{
+        color: rgb(39, 38, 38);
+    }
+    .emai:hover{
+    color: white;
+    }
+    .icon-image {
+        position: relative;
+        overflow: hidden; /* Contain the button */
+    }
+    
+    .card-button {
+        position: absolute; /* Position the button absolutely */
+        top:50%; /* Position it at the bottom */
+        left: 50%;
+        transform: translate(-50%, -50%); /* Center the button horizontally */
+        opacity: 0; /* Initially hidden */
+        transition: opacity 0.3s ease; /* Smooth transition for opacity */
+        background-color: transparent; /* Initial background */
+        color: white; /* Initial text color */
+        border: 2px solid white; /* Optional border */
+        padding: 10px 20px; /* Padding */
+    }
+    
+    .icon-image:hover .card-button {
+        opacity: 1; /* Show on hover of the parent */
+    }
+    
+    /* Change background color and text color on button hover */
+    .card-button:hover {
+        background-color:#fa6f1c; /* Change background on button hover */
+        color: white; /* Change text color on button hover */
+    }
+    .navbar {
+        background-color: #fbfbfb;
+    }
+    .social-icons a {
+        margin-left: 10px;
+        color: #7b7983; /* Default color for icons */
+    }
+   
